@@ -7,7 +7,7 @@
 
 #define BUFFER_SIZE 1024
 
-void c(char *buffer, const char *key, const int l) {
+void c(char *buffer, const char *key, int l) {
     int i, j = 0;
     int max = strlen(key);
     for(i=0; i<l; i++) {
